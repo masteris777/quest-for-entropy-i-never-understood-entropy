@@ -80,9 +80,9 @@ We built the table to watch that price get paid. Sixteen balls, elastic walls, n
 
 The experiment: simulate the same table four thousand times over, with starting positions differing by **one nanometre**. One table is the truth. The other 3,999 are the contents of a rounded notebook — every state that agrees with what I wrote down.
 
-![the blur](assets/blur.gif)
+![the blur](assets/breakshot_20s.gif)
 
-Watch what happens. For a long time, nothing. The ghosts sit exactly on top of the real balls and the table looks perfectly predictable. Then, inside about two seconds, it dissolves.
+Watch what happens. For a long time, nothing. The ghosts sit exactly on top of the real balls and the table looks perfectly predictable. Then, inside about three seconds, it dissolves.
 
 Why so violently? Because a billiard ball is a **convex mirror**. Two paths that arrive almost parallel hit that curved surface and leave *diverging*. Every collision magnifies whatever you got wrong, and the magnification compounds. You do not need three bodies for this — roundness does it with two. Michael Berry worked out the honest scale for a real table back in 1978: to predict the ninth collision you need to include the gravitational pull of a person standing beside the table; by around the fifty-sixth you would need a single electron at the edge of the observable universe.
 
