@@ -1,0 +1,54 @@
+A. the blur
+  perturbed: 28.8s, 123 ball-ball collisions per table
+A'. the control (perturbation removed)
+  control: 11.7s, 122 ball-ball collisions per table
+B. the rewind
+   float64  T=  8.50    54 ball-ball collisions  (0.0s)
+        20  T= 12.25    71 ball-ball collisions  (2.8s)
+        24  T= 13.75    79 ball-ball collisions  (2.9s)
+        32  T= 21.25   115 ball-ball collisions  (5.8s)
+        48  T= 33.25   182 ball-ball collisions  (11.9s)
+        64  T= 44.00   222 ball-ball collisions  (14.0s)
+        96  T= 70.00   344 ball-ball collisions  (31.7s)
+       128  T= 98.75   457 ball-ball collisions  (40.2s)
+  demo    exact: position error after the round trip 7.853e-09
+  demo  rounded: position error after the round trip 1.978e-01
+
+wrote metrics.json, frames.npz, rewind_frames.npz
+running the lab (ensemble, control, rewind sweep) ...
+
+THE COUNTING
+  PASS  12,870 ways to split sixteen balls eight and eight
+         got 12870, expected 12870
+
+THE BLUR
+  PASS  uncertainty doubles every 0.28 time units
+         got 0.28, expected 0.28
+  PASS  one nanometre in, a third of the table out
+         got 0.3, expected 0.3
+  PASS  the 8x4 observer saturates at its own ceiling
+         got 0.997, expected 1.0
+  PASS  the 16x8 observer saturates at its own ceiling
+         got 0.996, expected 1.0
+  PASS  the 32x16 observer saturates at its own ceiling
+         got 0.992, expected 1.0
+
+THE CONTROL THAT MUST NOT BLUR
+  PASS  perturbation removed: spread stays exactly zero
+         got 0.0, expected 0.0
+  PASS  perturbation removed: entropy stays exactly zero
+         got 0.0, expected 0.0
+
+THE REWIND
+  PASS  float64 rewinds 54 ball-ball collisions
+         got 54, expected 54
+  PASS  about three and a half collisions per extra digit
+         got 3.6, expected 3.6
+  PASS  the digit price is linear (R^2)
+         got True, expected True
+  PASS  exact reversal re-racks the triangle
+         got True, expected True
+  PASS  reversal after rounding to a nanometre does not
+         got 0.2, expected 0.2
+
+all claims reproduced

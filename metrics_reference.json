@@ -1,0 +1,110 @@
+{
+  "blur": {
+    "universes": 4000,
+    "perturbation": 1e-09,
+    "t_end": 24.0,
+    "dt": 0.2,
+    "lyapunov_per_time": 2.4838163366996335,
+    "lyapunov_fit_window": [
+      1.0,
+      7.0000000000000036
+    ],
+    "lyapunov_fit_points": 31,
+    "doubling_time": 0.2790653923634963,
+    "spread_initial": 9.997468071490784e-10,
+    "spread_saturated": 0.3010276780922102,
+    "t_half_saturation": 9.599999999999998,
+    "entropy_final": {
+      "8x4": 3.456741740692535,
+      "16x8": 4.831671346906553,
+      "32x16": 6.190719973935128
+    },
+    "entropy_ceiling_ln_cells": {
+      "8x4": 3.4657359027997265,
+      "16x8": 4.852030263919617,
+      "32x16": 6.238324625039508
+    }
+  },
+  "control": {
+    "perturbation": 0.0,
+    "spread_max": 0.0,
+    "entropy_max": {
+      "8x4": 0.0,
+      "16x8": 0.0,
+      "32x16": 0.0
+    },
+    "bit_identical_throughout": true
+  },
+  "rewind": {
+    "tolerance": 1e-06,
+    "sweep": [
+      {
+        "dps": "float64",
+        "digits": 15.95,
+        "t_recovered": 8.5,
+        "collisions_recovered": 54
+      },
+      {
+        "dps": 20,
+        "digits": 20.0,
+        "t_recovered": 12.25,
+        "collisions_recovered": 71
+      },
+      {
+        "dps": 24,
+        "digits": 24.0,
+        "t_recovered": 13.75,
+        "collisions_recovered": 79
+      },
+      {
+        "dps": 32,
+        "digits": 32.0,
+        "t_recovered": 21.25,
+        "collisions_recovered": 115
+      },
+      {
+        "dps": 48,
+        "digits": 48.0,
+        "t_recovered": 33.25,
+        "collisions_recovered": 182
+      },
+      {
+        "dps": 64,
+        "digits": 64.0,
+        "t_recovered": 44.0,
+        "collisions_recovered": 222
+      },
+      {
+        "dps": 96,
+        "digits": 96.0,
+        "t_recovered": 70.0,
+        "collisions_recovered": 344
+      },
+      {
+        "dps": 128,
+        "digits": 128.0,
+        "t_recovered": 98.75,
+        "collisions_recovered": 457
+      }
+    ],
+    "collisions_per_digit": 3.590715967637804,
+    "fit_intercept": -1.5808622938247168,
+    "fit_r2": 0.9986080613823685,
+    "lyapunov_per_collision": 0.641260716176565
+  },
+  "rewind_demo": {
+    "t": 8.0,
+    "rounded_to_decimals": 9,
+    "error_exact": 7.85252105006684e-09,
+    "error_rounded": 0.19784224727573324,
+    "ball_radius": 0.015
+  },
+  "table": {
+    "balls": 16,
+    "radius": 0.015,
+    "width": 1.0,
+    "height": 0.5,
+    "walls": "elastic",
+    "friction": 0.0
+  }
+}
