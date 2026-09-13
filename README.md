@@ -2,6 +2,8 @@
 
 **Article:** [Quest for Entropy #4 — "I Never Understood Entropy"](https://questforentropy.substack.com/p/i-never-understood-entropy)
 
+**Series:** ← [#3 The Machine Takes a Quantum Exam](https://github.com/masteris777/quest-for-entropy-quantum-exam) · [#5 Building a Wave](https://github.com/masteris777/quest-for-entropy-building-a-wave) →
+
 Evidence repo for **Quest for Entropy #4: [“I Never Understood Entropy”](article.md)** — a
 sixteen-ball elastic billiard, and what it says about the difference between what a system
 keeps and what an observer can hold.
