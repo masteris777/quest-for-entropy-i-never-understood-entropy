@@ -1,5 +1,7 @@
 # I Never Understood Entropy — companion repository
 
+**Article:** [Quest for Entropy #4 — "I Never Understood Entropy"](https://questforentropy.substack.com/p/i-never-understood-entropy)
+
 Evidence repo for **Quest for Entropy #4: [“I Never Understood Entropy”](article.md)** — a
 sixteen-ball elastic billiard, and what it says about the difference between what a system
 keeps and what an observer can hold.
