@@ -1,6 +1,6 @@
 # I Never Understood Entropy — companion repository
 
-**Article:** [Quest for Entropy #4 — "I Never Understood Entropy"](https://questforentropy.substack.com/p/i-never-understood-entropy)
+**Article:** [Quest for Entropy #4 — "I Never Understood Entropy"](https://questforentropy.com/p/i-never-understood-entropy) · also on [Substack](https://questforentropy.substack.com/p/i-never-understood-entropy)
 
 **Series:** ← [#3 The Machine Takes a Quantum Exam](https://github.com/masteris777/quest-for-entropy-quantum-exam) · [#5 Building a Wave](https://github.com/masteris777/quest-for-entropy-building-a-wave) →
 
